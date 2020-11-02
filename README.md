@@ -25,7 +25,7 @@ npm install my-f2-pc2 --save
 ```json
 {
   "usingComponents": {
-    "f2": "my-f2-pc2/es"
+    "f2": "my-f2-pc2"
   }
 }
 ```

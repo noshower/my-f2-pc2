@@ -1,11 +1,13 @@
 {
   "name": "my-f2-pc2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "淘宝PC小程序",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noshower/my-f2-pc2.git"
   },
+  "main": "es/index.js",
+  "module": "es/index.js",
   "author": "noshower",
   "license": "MIT",
   "files": [
