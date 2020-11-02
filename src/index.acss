@@ -1,0 +1,4 @@
+.f2_pc_canvas {
+  width: 100%;
+  height: 100%;
+}

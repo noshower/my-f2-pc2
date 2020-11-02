@@ -1,0 +1,32 @@
+{
+  "name": "my-f2-pc2",
+  "version": "1.0.0",
+  "description": "淘宝PC小程序",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noshower/my-f2-pc2.git"
+  },
+  "author": "noshower",
+  "license": "MIT",
+  "files": [
+    "es"
+  ],
+  "keywords": [
+    "custom-component",
+    "mini-program"
+  ],
+  "bugs": {
+    "url": "https://github.com/noshower/my-f2-pc2/issues"
+  },
+  "homepage": "https://github.com/noshower/my-f2-pc2#readme",
+  "dependencies": {
+    "@antv/f2-context": "0.0.1"
+  },
+  "scripts": {
+    "build": "node scripts/cp.js",
+    "pub": "git push origin && npm run build && npm publish"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}
